@@ -8,13 +8,13 @@
 
 <body>
     <header>
-        <h1>Hello World!</h1>
-        <h3>With $greetings: {{$greetings}}</h3>
+        <h1>{{$greetings}}</h1>
+        <h3>Benvenuto in pagina 2</h3>
     </header>
     <main>
     <p>Link alle altre pagine:</p>
     <ul>
-        <li><a href="{{url('/page2')}}">Pagina 2</a></li>
+        <li><a href="{{url('/')}}">Home</a></li>
         <li><a href="{{url('/page3')}}">Pagina 3</a></li>
     </ul>
     <main>
