@@ -14,8 +14,8 @@
     <main>
     <p>Link alle altre pagine:</p>
     <ul>
-        <li><a href="{{url('/')}}">Home</a></li>
-        <li><a href="{{url('/page3')}}">Pagina 3</a></li>
+        <li><a href="{{route('home')}}">Home</a></li>
+        <li><a href="{{route('page3')}}">Pagina 3</a></li>
     </ul>
     <main>
 </body>
