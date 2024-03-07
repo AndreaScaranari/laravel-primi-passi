@@ -9,6 +9,7 @@
 <body>
     <main>
         <h1>Hello World!</h1>
+        <h3>With $greetings: {{$greetings}}</h3>
     </main>
 </body>
 </html>
